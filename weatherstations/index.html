@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Andri Karel Júlíusson">
+
+    <title>Weather</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Weather stations
+                    </a>
+                </li>
+                <li id="stations">
+                    <a href="#" id="rv" name="1">Reykjavik</a>
+                    <a href="#" id="ak" name="422">Akureyri</a>
+                    <a href="#" id="bf" name="1486">Bláfjöll</a>
+                    <a href="#" id="vm" name="6015">Vestmanneyjar</a>
+                    <a href="#" id="þv" name="1596">Þingvellir</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Weather information</h1>
+                <div id="container"></div>
+                <ul id="weather"></ul>
+
+                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Show more stations</a>
+
+                <table class="table">
+                    <thead>
+
+                    </thead>
+                    <tbody>
+                        <tr id="stats">
+                            
+                        </tr>
+                    </tbody>
+                </table>
+       
+                <div id="tableStats">
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.src.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
